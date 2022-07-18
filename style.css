@@ -1,0 +1,66 @@
+body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #FFFFED;
+    margin: 0
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    background-color: #c2f9bb;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', 'sans serif';
+    padding: 1rem;
+    display: table;
+}
+
+.book {
+    background-color: #a2abb5;
+    padding: 1rem;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Goudy Bookletter 1911', 'serif';
+    font-size: 18px;
+}
+
+.shelf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    grid-column: 1 / 2;
+    grid-row-start: 2;
+    /* overflow: auto; */
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00072D;
+    color: #817f82;
+    padding-left: 50px;
+    grid-column: 1 / 3;
+    font-family: 'Open Sans', 'sans serif';
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+button {
+    background-color: #00072D;
+    color: #FFFFED;
+    font-family: 'Open Sans', 'sans serif';
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    font-weight: bolder;
+
+}

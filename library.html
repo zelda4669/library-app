@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./library.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Open+Sans&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="./style.css">
+    <title>My Library</title>
+</head>
+<body>
+    <div class="header">
+        <h1>My Library</h1>
+    </div>
+    <div class="container">
+        <form id="addBook" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="title">Title:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="title" id="title">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="author">Author:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="author" id="author">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="read">Read?</label>
+                        <input type="checkbox" name="read" id="read">
+                    </td>
+                </tr>
+            </table>
+            <button id="submit" type="submit">Add to library</button>
+        </form>
+    </div>
+    <div class="shelf">
+
+    </div>
+</body>
+</html>
