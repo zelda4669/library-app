@@ -19,7 +19,7 @@
         <h1>My Library</h1>
     </div>
     <div class="container">
-        <form id="addBook" method="post">
+        <form id="addBook" method="post" action="/">
             <table>
                 <tr>
                     <td>
@@ -28,7 +28,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="title" id="title">
+                        <input type="text" name="title" id="title" required>
                     </td>
                 </tr>
                 <tr>
@@ -38,7 +38,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="author" id="author">
+                        <input type="text" name="author" id="author" required>
                     </td>
                 </tr>
                 <tr>
@@ -48,7 +48,7 @@
                     </td>
                 </tr>
             </table>
-            <button id="submit" type="submit">Add to library</button>
+            <button id="submit" type="submit">Add to Library</button>
         </form>
     </div>
     <div class="shelf">

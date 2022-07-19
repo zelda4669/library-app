@@ -64,3 +64,15 @@ button {
     font-weight: bolder;
 
 }
+
+.delete {
+    position: relative;
+    bottom: 130px;
+    left: 90px;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.title {
+    font-weight: bold;
+}
